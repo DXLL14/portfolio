@@ -1,5 +1,5 @@
 // CHATBOT with Gemini API (Backend)
-const BACKEND_URL = 'http://localhost:3001';
+fetch("/api/chat")
 
 const chatbotToggle = document.getElementById('chatbotToggle');
 const chatbotClose = document.getElementById('chatbotClose');
