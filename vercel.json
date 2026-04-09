@@ -1,0 +1,8 @@
+{
+  "buildCommand": "echo 'Build complete'",
+  "public": ".",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+  "env": ["GEMINI_API_KEY"]
+}

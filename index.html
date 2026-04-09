@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rendell German | Full Stack Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">Rendell German</div>
+    <ul class="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Building Digital <br><span>Solutions</span></h1>
+    <p class="intro">Full Stack Developer | Web Developer</p>
+    <p>
+      I create beautiful, functional web applications using modern technologies. From responsive frontends to robust backends, I turn ideas into reality.
+    </p>
+    <p>
+      Specializing in Python,and PHP, I deliver scalable solutions for businesses of all sizes. Let's build something amazing together.
+    </p>
+    <p class="highlight">
+      Transforming visions into <strong>Working Code</strong>!
+    </p>
+    <p>
+      With expertise in full-stack development, deployment, and database design, I'm ready to tackle your next project. Whether you need a modern website, API, or complete application — I've got the skills you need.
+    </p>
+    <a href="#contact" class="btn">Get In Touch</a>
+  </div>
+
+  <div class="hero-image">
+    <div class="image-wrapper">
+      <img src="assets/profile.jpg" alt="Rendell German">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="about-content">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate full-stack developer with a deep love for creating elegant solutions to complex problems. I have built 50+ projects (most under NDA for clients and instructors).
+    </p>
+    <p>
+      My approach combines clean code, modern best practices, and a user-centered mindset. Whether working with frontend frameworks, backend systems, or cloud infrastructure, I bring creativity and technical excellence to every project.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <div class="skills-content">
+    <h2>Skills & Technologies</h2>
+    <div class="skills-grid">
+      <span>HTML5</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>PHP</span>
+      <span>Laravel</span>
+      <span>Node.js</span>
+      <span>React</span>
+      <span>Bootstrap</span>
+      <span>MySQL</span>
+      <span>Firebase</span>
+      <span>Vercel</span>
+      <span>Apache</span>
+      <span>Windows Terminal</span>
+      <span>Adobe XD</span>
+      <span>Canva</span>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>Services</h2>
+
+  <div class="service-card">
+    <h3>Web Development</h3>
+    <p>Create stunning, responsive websites using HTML5, CSS, and modern frameworks. From landing pages to complex web applications, I build sites that convert and perform.</p>
+  </div>
+
+  <div class="service-card">
+    <h3>Full Stack Development</h3>
+    <p>End-to-end web application development using Node.js, PHP, Laravel, and databases. I handle frontend, backend, and deployment to get your app live.</p>
+  </div>
+
+  <div class="service-card">
+    <h3>Python Development</h3>
+    <p>Build robust backend systems, automation scripts, and data processing solutions with Python. Perfect for APIs, microservices, and server-side logic.</p>
+  </div>
+
+  <div class="service-card">
+    <h3>Database Design</h3>
+    <p>Design and optimize MySQL databases for performance and scalability. Proper database architecture ensures your app runs smoothly as it grows.</p>
+  </div>
+
+  <div class="service-card">
+    <h3>Website Redesign</h3>
+    <p>Transform outdated websites into modern, fast, and user-friendly platforms. Updated design with improved performance and better UX.</p>
+  </div>
+
+  <div class="service-card">
+    <h3>UI/UX Design</h3>
+    <p>Create beautiful user interfaces using Adobe XD and modern design principles. User-centered design that looks great and works perfectly.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Let's Build Something Great</h2>
+  <p>
+    Ready to start your next project? I'd love to hear about your ideas and discuss how I can help bring them to life. Get in touch and let's create something amazing together.
+  </p>
+  <p><strong>Email:</strong> germanrendell14@gmail.com</p>
+  <a href="https://calendly.com/germanrendell14/30min" class="btn dark">Schedule a Call</a>
+  <a href="https://github.com/DXLL14" class="btn dark" target="_blank">GitHub</a>
+  <a href="https://www.linkedin.com/in/rendell-german-78388a219/" class="btn dark" target="_blank">LinkedIn</a>
+</section>
+
+<!-- CHATBOT -->
+<div class="chatbot-widget">
+  <button class="chatbot-toggle" id="chatbotToggle">
+    <span class="chatbot-icon">💬</span>
+  </button>
+  
+  <div class="chatbot-container" id="chatbotContainer">
+    <div class="chatbot-header">
+      <h3>Rendell's Assistant</h3>
+      <button class="chatbot-close" id="chatbotClose">✕</button>
+    </div>
+    
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="message bot-message">
+        <p>Hi! 👋 I'm Rendell's AI assistant. How can I help you today?</p>
+      </div>
+    </div>
+    
+    <div class="chatbot-input-area">
+      <input type="text" id="chatbotInput" placeholder="Type your message..." />
+      <button id="chatbotSend">Send</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
