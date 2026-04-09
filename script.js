@@ -1,9 +1,5 @@
 // CHATBOT with Gemini API (Backend)
-// Local development: http://localhost:3001
-// Production (Vercel): /api/chat
-const BACKEND_URL = window.location.hostname === 'localhost' 
-  ? 'http://localhost:3001' 
-  : '';
+const BACKEND_URL = 'http://localhost:3001';
 
 const chatbotToggle = document.getElementById('chatbotToggle');
 const chatbotClose = document.getElementById('chatbotClose');
@@ -31,7 +27,7 @@ const botResponses = {
 // Call backend API
 async function callBackendAPI(userMessage) {
   try {
-    const apiUrl = BACKEND_URL ? `${BACKEND_URL}/api/chat` : '/api/chat';
+    const apiUrl = `${BACKEND_URL}/api/chat`;
     
     const response = await fetch(apiUrl, {
       method: 'POST',
