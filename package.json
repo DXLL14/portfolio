@@ -4,8 +4,7 @@
   "description": "Backend server for portfolio chatbot",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "build": "echo 'Building for Vercel'"
   },
   "keywords": [],
   "author": "",

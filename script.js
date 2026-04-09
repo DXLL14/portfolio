@@ -1,5 +1,6 @@
 // CHATBOT with Gemini API (Backend)
-fetch("/api/chat")
+// In Vercel/production, use relative paths. Locally during dev, can be same.
+const BACKEND_URL = '';
 
 const chatbotToggle = document.getElementById('chatbotToggle');
 const chatbotClose = document.getElementById('chatbotClose');
